@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+}
+header{
+    width: 100%;
+    height: 600px; 
+}
+#MenuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+#MenuPrincipal ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10px;
+}
+#MenuPrincipal li {
+    text-align: center;
+    padding: 14px 12px;
+}
+#MenuPrincipal a{
+    text-decoration: none;
+    color: black;
+}
+#MenuPrincipal a:hover{
+    text-decoration: underline; 
+}
+.imgnav{
+    width: 40px;
+    height: 40px;
+}
+.img-li {
+    width: 15px;
+}
+.centro{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centro{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -400px;
+}
+form{
+    position: relative;
+}
+input{
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;
+}
+input:hover{
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
+}
+input:focus{
+    outline: none;
+}
+.pesquisa{
+    width: 20px;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+.microfone{
+    width: 30px;
+    position: absolute;
+    top: 13px;
+    left: 540px;
+}
+.buttons{
+    width: 300px;
+    margin: auto;
+    margin-top: 18px;
+}
+button{
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+button:hover{
+    border: 1px solid #eee;
+}
+footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-top: -15px;
+}
+.painel{
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.painel > *{
+    flex-basis: 33%;
+}
+p{
+    color: grey;
+    margin-left: 18px;
+}
+.esquerda{
+    width: 12px;
+    margin-left: 0px;
+}
+.direita{
+    justify-content: flex-end;
+}
+#MenuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+.painel ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10px;
+}
+.painel li {
+    text-align: center;
+    padding: 14px 12px;
+}
+.painel a{
+    text-decoration: none;
+    color: black;
+}
+.painel a:hover{
+    text-decoration: underline; 
+}
